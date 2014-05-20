@@ -1,0 +1,10 @@
+{
+  "name": "angular-social-text-select",
+  "version": "0.1.0",
+  "repo": "uberstudio/angular-social-text-select",
+  "description": "Social text selection tool (a-la medium.com) for angular.js",
+  "main": "angular-social-text-select.js",
+  "scripts": [
+    "angular-social-text-select.js"
+  ]
+}

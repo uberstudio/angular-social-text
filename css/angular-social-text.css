@@ -1,0 +1,51 @@
+.social-selection {
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    z-index: 9999999;
+}
+
+.social-selection-tooltip {
+    background: black;
+    width: 125px;
+    height: 50px;
+}
+
+.social-selection-arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #000000 transparent;
+    position: relative;
+    top: -60px;
+    left: 50px;
+}
+
+.social-selection-tooltip-fb, .social-selection-tooltip-tw, .social-selection-tooltip-mail {
+    display: inline-block;
+    margin: 12px 8px;
+    width: 24px;
+    height: 25px;
+    background-image: url(../img/social-text-icons.png);
+    cursor: pointer;
+}
+.social-selection-tooltip-fb:hover {
+    background-position: 0 -25px;
+}
+.social-selection-tooltip-tw:hover {
+    background-position: -24px -25px;
+}
+.social-selection-tooltip-mail:hover {
+    background-position: -48px -25px;
+}
+
+.social-selection-tooltip-fb {
+    background-position: 0 0;
+}
+.social-selection-tooltip-tw {
+    background-position: -24px 0;
+}
+.social-selection-tooltip-mail {
+    background-position: -48px 0;
+}
