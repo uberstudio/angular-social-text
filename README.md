@@ -42,7 +42,7 @@ Usage:
             window.open('http://twitter.com/share?text='+$rootScope.textToShare,'socialtext', 'width=635,height=346,scrollbars=no,status=no,toolbar=no,menubar=no,location=no');
         }
         $scope.shareTextFB = function() {
-            window.open('http://www.facebook.com/sharer.php?s=100&p[url]='+encodeURIComponent(http://your-page-url.com)+'&p[summary]='+encodeURIComponent($rootScope.textToShare)+'&p[title]=YourSiteName','socialtext', 'width=635,height=346,scrollbars=no,status=no,toolbar=no,menubar=no,location=no');
+            window.open('http://www.facebook.com/sharer.php?s=100&p[url]='+encodeURIComponent('http://your-page-url.com')+'&p[summary]='+encodeURIComponent($rootScope.textToShare)+'&p[title]=YourSiteName','socialtext', 'width=635,height=346,scrollbars=no,status=no,toolbar=no,menubar=no,location=no');
         }
 	$scope.customMailFunction = function() {
 	    ...
