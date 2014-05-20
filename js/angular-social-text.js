@@ -3,7 +3,7 @@
 /* Directives */
 
 angular.module('ngSocialText', []).
-    directive('socialText',function($compile)
+    directive('socialText',function($compile, $rootScope)
               {
                   return {
                       restrict: 'A',
