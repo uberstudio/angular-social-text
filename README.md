@@ -30,7 +30,7 @@ Usage:
                div.social-selection-tooltip-fb
              a(ng-click="shareTextTwitter()")
                div.social-selection-tooltip-tw
-	     a(ng-click="customMailFunction()")
+             a(ng-click="customMailFunction()")
                div.social-selection-tooltip-mail
            div.social-selection-arrow
 ```
@@ -44,9 +44,9 @@ Usage:
         $scope.shareTextFB = function() {
             window.open('http://www.facebook.com/sharer.php?s=100&p[url]='+encodeURIComponent('http://your-page-url.com')+'&p[summary]='+encodeURIComponent($rootScope.textToShare)+'&p[title]=YourSiteName','socialtext', 'width=635,height=346,scrollbars=no,status=no,toolbar=no,menubar=no,location=no');
         }
-	$scope.customMailFunction = function() {
-	    ...
-	}
+        $scope.customMailFunction = function() {
+            ...
+        }
 ```
 
  * Use the directive as an attribute to make any element's text shareable!
